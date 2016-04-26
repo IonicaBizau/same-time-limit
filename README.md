@@ -1,14 +1,18 @@
+
 # same-time-limit [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/same-time-limit.svg)](https://www.npmjs.com/package/same-time-limit) [![Downloads](https://img.shields.io/npm/dt/same-time-limit.svg)](https://www.npmjs.com/package/same-time-limit) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
 > Run tasks in parallel with a limit.
 
-## Installation
+## :cloud: Installation
 
 ```sh
 $ npm i --save same-time-limit
 ```
 
-## Example
+
+## :clipboard: Example
+
+
 
 ```js
 const sameTimeLimit = require("same-time-limit");
@@ -24,7 +28,8 @@ sameTimeLimit([
 });
 ```
 
-## Documentation
+## :memo: Documentation
+
 
 ### `sameTimeLimit(tasks, limit, cb)`
 Runs async tasks in parallel but not more than a given limit in
@@ -38,13 +43,18 @@ the same time.
 #### Return
 - **LimitIt** The `LimitIt` instance.
 
-## How to contribute
+
+
+## :yum: How to contribute
 Have an idea? Found a bug? See [how to contribute][contributing].
 
-## Where is this library used?
+## :dizzy: Where is this library used?
 If you are using this library in one of your projects, add it in this list. :sparkles:
 
-## License
+
+ - [`git-cloner`](https://github.com/IonicaBizau/git-cloner#readme)—Clone multiple git repositories.
+
+## :scroll: License
 
 [MIT][license] © [Ionică Bizău][website]
 
