@@ -1,6 +1,6 @@
 {
   "name": "same-time-limit",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Run tasks in parallel with a limit.",
   "main": "lib/index.js",
   "directories": {
@@ -23,5 +23,16 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/same-time-limit/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/same-time-limit#readme"
+  "homepage": "https://github.com/IonicaBizau/same-time-limit#readme",
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
