@@ -1,6 +1,6 @@
 {
   "name": "same-time-limit",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Run tasks in parallel with a limit.",
   "main": "lib/index.js",
   "directories": {
