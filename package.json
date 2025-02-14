@@ -1,6 +1,6 @@
 {
   "name": "same-time-limit",
-  "version": "1.0.11",
+  "version": "1.0.12",
   "description": "Run tasks in parallel with a limit.",
   "main": "lib/index.js",
   "directories": {
@@ -35,6 +35,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
